@@ -2,10 +2,8 @@ Installing Docker on Amazon Linux 2
 
 root-user = sudo -i
 1. sudo yum update
-2. sudo yum search docker
-3. sudo yum info docker
-4.sudo yum install docker
-5.docker --version
+2.sudo yum install docker
+3.docker --version
 
 
 (sudo systemctl status docker
