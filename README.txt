@@ -7,6 +7,12 @@ root-user = sudo -i
 4.sudo yum install docker
 5.docker --version
 
+
+(sudo systemctl status docker
+sudo systemctl start docker)
+
+
+
 Now we install docker-compose, run 
 1. sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
 2. sudo chmod +x /usr/local/bin/docker-compose
