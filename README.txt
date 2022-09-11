@@ -12,8 +12,8 @@ sudo systemctl start docker)
 
 
 Now we install docker-compose, run 
-1. sudo curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
-2. sudo chmod +x /usr/local/bin/docker-compose
+1. curl -L https://github.com/docker/compose/releases/download/1.21.0/docker-compose-`uname -s`-`uname -m` | sudo tee /usr/local/bin/docker-compose > /dev/null
+2.  chmod +x /usr/local/bin/docker-compose
 3. ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 4. docker-compose --version
 
