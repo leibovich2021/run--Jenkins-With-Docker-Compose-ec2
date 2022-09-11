@@ -43,7 +43,7 @@ after this save it and run jenkins controller
 Now point a web browser at port 8080 on your host system. You’ll see the unlock page.
 to Unlock Jenkins password
 run this commend
-1. docker exec jenkins cat /var/jenkins_home/secrets/initialadminPassword
+1. docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 
 now we creat our user.
 
